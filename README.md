@@ -21,6 +21,17 @@ fornyKit is also known as RearGen Material Kit. fornyKit library handles HTML el
 <script src="https://cdn.jsdelivr.net/gh/ThirashaPraween/fornyKit/fornykit-v1.0.js"></script>
 ```
 
+## or Minified CDN Links
+
+###### CSS
+```
+<link href="https://cdn.jsdelivr.net/gh/ThirashaPraween/fornyKit/fornykit-v1.0.min.css" rel="stylesheet" crossorigin="anonymous" />
+```
+
+###### JS
+```
+<script src="https://cdn.jsdelivr.net/gh/ThirashaPraween/fornyKit/fornykit-v1.0.min.js"></script>
+```
 
 ### Guide
 - [Components](#components)
