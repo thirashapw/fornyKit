@@ -36,19 +36,10 @@ fornyKit is also known as RearGen Material Kit. fornyKit library handles HTML el
 ### Guide
 - [Components](#components)
 - [Colors](#colors)
+- [Navbar & Drawer](#navbar-and-drawer)
+- [Radio Buttons](#radio-buttons)
+- [Check Box](#check-box)
 - [Other Classes](#other-classes)
-- [Build a new app with HTML/CSS/JS](#build-a-new-app-with-html-css-js)
-- [Live testing](#live-testing)
-- [Recollecting](#recollecting)
-- [Zeal Animator support](#zeal-animator-support)
-- [Custom CSS or JS libraries support](#custom-css-or-js-libraries-support)
-- [Use clean file](#use-clean-file)
-- [Report a issue](https://discord.gg/ymyQntskxj)
-- [Buy premium a key](#buy-premium-a-key)
-- [Donate](https://paypal.me/thirasha?locale.x=en_US)
-- [What is RearGen material kit?](#what-is-reargen-material-kit)
-
-We released stable releases of the RearGen. RearGen is depends on JAVA and gradle. To run this application you have to install Java JDK. Compiler written in Python. There are several features added to this framework than [RWAD](https://github.com/ThirashaPraween/RWAD-React-Native-Web-App-Dev).
 
 
 ## Components
@@ -58,12 +49,14 @@ Browse [demo](https://thirashapraween.github.io/fornyKit/) component site.
 
 You don't need any special classes to handle mobile responsive elements. After you implement the fornyKit library, It will automatically change the elements to responsive RearGen components.
 
+
 ## Colors
 - Background Colors - `bg-primary`, `bg-secondary`, `bg-danger`, `bg-warning`, `bg-white`, `bg-dark`, `bg-black`
 - Text Colors - `text-primary`, `text-secondary`, `text-danger`, `text-warning`, `text-white`, `text-dark`, `text-black`
 
+
 ## Navbar and Drawer
-Implement a primary color simple android nav bar\
+- Implement a primary color simple android nav bar\
 ![statusbar](https://i.imgur.com/dc3zrvS.png)
 
 ```
@@ -72,7 +65,7 @@ Implement a primary color simple android nav bar\
 </nav>
 ```
 
-Implement a primary color simple android nav bar with drawer\
+- Implement a primary color simple android nav bar with drawer\
 ![navbar](https://i.imgur.com/e5WJhky.png)
 
 ```
@@ -93,6 +86,7 @@ Implement a primary color simple android nav bar with drawer\
 ##### Special
 - To bring down the `flow-container` from nav bar, add `off-nav` to `flow-container` div.
 - To hide drawer when tapping the `flow-container`, add `hide-nav` to `flow-container` div.
+
 
 ## Radio Buttons
 ![Radiobuttons](https://i.imgur.com/09Vyneg.png)
