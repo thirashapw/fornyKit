@@ -62,6 +62,23 @@ You don't need any special classes to handle mobile responsive elements. After y
 - Background Colors - `bg-primary`, `bg-secondary`, `bg-danger`, `bg-warning`, `bg-white`, `bg-dark`, `bg-black`
 - Text Colors - `text-primary`, `text-secondary`, `text-danger`, `text-warning`, `text-white`, `text-dark`, `text-black`
 
+## Navbar and Drawer
+Implement a primary color simple android nav bar
+```
+<nav class="bg-primary">
+  <span id="nav-burger">&#9776;</span>
+  <label>fornyKit Components Samples</label>
+  <div id="nav-side" class="nav-side bg-white nav-text-dark">
+    <a href="javascript:void(0)" class="nav-head">fornyKit</a>
+    <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <a href="#">&#9728; Home</a>
+    <a href="#">&#9728; About</a>
+    <a href="#">&#9728; Services</a>
+    <a href="#">&#9728; Contact</a>
+  </div>
+</nav>
+```
+
 ## Other Classes
 - Container - `flow-container`
 - Margins - `mu` , `ml` , `mr` , `md`
