@@ -63,7 +63,7 @@ You don't need any special classes to handle mobile responsive elements. After y
 - Text Colors - `text-primary`, `text-secondary`, `text-danger`, `text-warning`, `text-white`, `text-dark`, `text-black`
 
 ## Navbar and Drawer
-Implement a primary color simple android nav bar
+Implement a primary color simple android nav bar\
 ![statusbar](https://i.imgur.com/dc3zrvS.png)
 
 ```
@@ -72,7 +72,7 @@ Implement a primary color simple android nav bar
 </nav>
 ```
 
-Implement a primary color simple android nav bar with drawer
+Implement a primary color simple android nav bar with drawer\
 ![navbar](https://i.imgur.com/e5WJhky.png)
 
 ```
