@@ -124,4 +124,4 @@ You don't need any special classes to handle mobile responsive elements. After y
 - Flex Wrap - `f-wrap`
 
 
-Thank you for using RearGen Material Kit (fornyKit)!
+Thank you for using fornyKit (Powered by RearGen Material Kit)!
