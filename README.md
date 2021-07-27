@@ -64,10 +64,21 @@ You don't need any special classes to handle mobile responsive elements. After y
 
 ## Navbar and Drawer
 Implement a primary color simple android nav bar
+![statusbar](https://i.imgur.com/dc3zrvS.png)
+
+```
+<nav class="bg-primary">
+  <label>Status bar</label>
+</nav>
+```
+
+Implement a primary color simple android nav bar with drawer
+![navbar](https://i.imgur.com/e5WJhky.png)
+
 ```
 <nav class="bg-primary">
   <span id="nav-burger">&#9776;</span>
-  <label>fornyKit Components Samples</label>
+  <label>Status bar</label>
   <div id="nav-side" class="nav-side bg-white nav-text-dark">
     <a href="javascript:void(0)" class="nav-head">fornyKit</a>
     <a href="javascript:void(0)" class="closebtn">&times;</a>
@@ -78,6 +89,32 @@ Implement a primary color simple android nav bar
   </div>
 </nav>
 ```
+
+##### Special
+- To bring down the `flow-container` from nav bar, add `off-nav` to `flow-container` div.
+- To hide drawer when tapping the `flow-container`, add `hide-nav` to `flow-container` div.
+
+## Radio Buttons
+![Radiobuttons](https://i.imgur.com/09Vyneg.png)
+```
+<label class="radio-label">
+    <input type="radio" name="group" />
+    <span>Radio Option 2</span>
+</label>
+<label class="radio-label">
+    <input type="radio" name="group" />
+    <span>Radio Option 2</span>
+</label>
+```
+
+
+## Check Box
+![CheckBox](https://i.imgur.com/k9cPCCK.png)
+```
+<input type="checkbox" id="remember" />
+<label for="remember" class="check-label">Remember me</label>
+```
+
 
 ## Other Classes
 - Container - `flow-container`
@@ -91,7 +128,6 @@ Implement a primary color simple android nav bar
 - Text Alignments - `text-center`, `text-left`, `text-right`
 - Floating - `fl`, `fr`
 - Flex Wrap - `f-wrap`
-
 
 
 Thank you for using RearGen Material Kit (fornyKit)!
